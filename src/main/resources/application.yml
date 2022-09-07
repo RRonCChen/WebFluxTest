@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    platform: h2
+    url: r2dbc:h2:mem:///testdb;DB_CLOSE_DELAY=-1;
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb;DB_CLOSE_DELAY=-1;
+    username: sa
+    password: password
